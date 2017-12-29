@@ -1,0 +1,53 @@
+body {
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url('http://res.cloudinary.com/simpleview/image/upload/v1441130234/clients/asheville/autumn_glory_800e1c77-191c-48b3-b4d8-84d3b822a763.jpg');
+}
+
+.page-header {
+  font-size: inherit;
+  font-family: 'Ubuntu', sans-serif;
+  color: #444543;
+}
+
+.App {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 5%;
+}
+
+.App-title {
+  color: #DAD4E8;
+  font-size: 50px;
+}
+
+.Clock-days, .Clock-hours {
+  color: #DAD4E8;
+  display: inline;
+}
+
+.Clock-minutes {
+  color: #DAD4E8;
+  display: inline;
+}
+
+.Clock-seconds {
+  color: #DAD4E8;
+  display: inline;
+}
+
+.Newnote-input {
+  font-size: 25px;
+  margin: 5px;
+}
+
+.Newnote-name {
+  font-size: 25px;
+  margin: 5px;
+}
+
+.theList {
+  list-style-type: none;
+  text-align: left;
+}
