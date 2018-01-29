@@ -6,6 +6,7 @@
     "axios": "^0.17.1",
     "jquery": "^3.2.1",
     "lodash": "^4.17.4",
+    "re-base": "^3.2.2",
     "react": "^16.2.0",
     "react-bootstrap": "^0.31.5",
     "react-cntdwn": "^0.3.0",
