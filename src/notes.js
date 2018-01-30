@@ -19,7 +19,7 @@ class Notes extends Component {
           placeholder="Leave a note"
           onChange={this.props.handleNoteChange}
         />
-      <Button onClick={this.props.addNote}>
+      <Button type="submit" onClick={this.props.addNote}>
         Submit
       </Button>
     </Form>

@@ -3,7 +3,7 @@ import './App.css';
 import Clock from './Clock';
 import Notes from './Notes';
 import List from './List';
-import base from './Rebase';
+import base from 're-base';
 
 const deadline = 'April 1, 2018';
 
@@ -31,10 +31,13 @@ class App extends Component {
     this.setState({noteInputValue})
   }
 
-  addNote(event) {
+
+
+ addNote(event) {
       if (this.state.nameInputValue === '' || this.state.noteInputValue === '') {
-        return  console.error("nopeRope")
+       console.error("nopeRope");
       } else {
+        event.preventDefault();
           console.log("Hi", this.state);
           const newNote = {
             name: this.state.nameInputValue,
@@ -42,9 +45,9 @@ class App extends Component {
             UID: new Date().getTime("")
           }
          this.setState({notes: [...this.state.notes, newNote]})
-
     };
 }
+
 
   render() {
 
